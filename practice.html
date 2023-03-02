@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+      integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+      integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <link rel="stylesheet" href="./practice.css" /> -->
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Main</title>
+  </head>
+  <body>
+    <a href="#home" class="float-button">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <header>
+      <a href="#" class="header__title"><span>Coffeenio</span></a>
+      <div class="mobileMenuToggle" onclick="toggleMenu()"></div>
+      <ul class="nav-items">
+        <li onclick="toggleMenu()"><a href="#about">about</a></li>
+        <li onclick="toggleMenu()"><a href="#news">news</a></li>
+        <li onclick="toggleMenu()"><a href="#offers">offers</a></li>
+        <li onclick="toggleMenu()"><a href="#coffee">coffee</a></li>
+        <li onclick="toggleMenu()"><a href="#machine">machine</a></li>
+        <li onclick="toggleMenu()"><a href="#product">product</a></li>
+        <li onclick="toggleMenu()"><a href="#service">service</a></li>
+        <li onclick="toggleMenu()"><a href="#reservation">reservation</a></li>
+        <li onclick="toggleMenu()"><a href="#partnership">partnership</a></li>
+        <li onclick="toggleMenu()"><a href="#help">help</a></li>
+      </ul>
+    </header>
+    <div class="home-section section" id="home">
+      <div class="container">
+        <div class="title-text">Start your day with <br />Coffeenio</div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex est
+          facere sequi repellendus illum?
+        </p>
+        <a href="#about" class="btn-default style-2"
+          >Let's explore <i class="fas fa-arrow-right"></i
+        ></a>
+      </div>
+    </div>
+    <div class="about-section section" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="img-box row">
+            <lord-icon
+              src="https://cdn.lordicon.com/jjkzhttx.json"
+              trigger="loop"
+              colors="primary:#121331,secondary:#e86830,tertiary:#ebe6ef"
+              style="width: 500px; height: 500px"
+            >
+            </lord-icon>
+          </div>
+          <div class="text-box row">
+            <h2>About us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A facere
+              nihil soluta numquam nam laboriosam excepturi error asperiores
+              repellat alias.
+            </p>
+            <a href="#about" class="btn-default style-2"
+              >Discover <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="title-text">Our Rastaurant</div>
+        <div class="address-content" id="address-content">
+          <div class="address-box">
+            <div class="header__title">
+              <div class="title">
+                <h2>Indonesia</h2>
+              </div>
+              <span
+                >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo, recusandae?</span
+              >
+            </div>
+            <div class="btn-visit">
+              <a href="#address-content" class="visit">
+                Restaurant <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="address-box">
+            <div class="header__title">
+              <div class="title">
+                <h2>Singapore</h2>
+              </div>
+              <span
+                >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo, recusandae?</span
+              >
+            </div>
+            <div class="btn-visit">
+              <a href="#address-content" class="visit">
+                Restaurant <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="address-box">
+            <div class="header__title">
+              <div class="title">
+                <h2>Malaysia</h2>
+              </div>
+              <span
+                >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo, recusandae?</span
+              >
+            </div>
+            <div class="btn-visit">
+              <a href="#address-content" class="visit">
+                Restaurant <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="address-box">
+            <div class="header__title">
+              <div class="title">
+                <h2>Australia</h2>
+                <h3>NEW!</h3>
+              </div>
+              <span
+                >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo, recusandae?</span
+              >
+            </div>
+            <div class="btn-visit">
+              <a href="#address-content" class="visit">
+                Restaurant <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="address-box">
+            <div class="header__title">
+              <div class="title">
+                <h2>Brazil</h2>
+                <h3>NEW!</h3>
+              </div>
+              <span
+                >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo, recusandae?</span
+              >
+            </div>
+            <div class="btn-visit">
+              <a href="#address-content" class="visit">
+                Restaurant <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="address-box">
+            <div class="header__title">
+              <div class="title">
+                <h2>Swiss</h2>
+                <h3>NEW!</h3>
+              </div>
+              <span
+                >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo, recusandae?</span
+              >
+            </div>
+            <div class="btn-visit">
+              <a href="#address-content" class="visit">
+                Restaurant <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="container">
+            <div class="contact-container">
+              <div class="contact-item">
+                <h3>Our Location</h3>
+                <p>Lorem ipsum dolor sit. <br />Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="contact-item">
+                <h3>Open hours</h3>
+                <p>
+                  Every day <br />
+                  10:00 AM - 21:00 PM
+                </p>
+              </div>
+              <div class="contact-item">
+                <h3>Contact us</h3>
+                <p>+955 577 777 777</p>
+                <p>coffeenio69@yahoo.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="news-section section" id="news">
+      <div class="title-section">
+        What's new
+        <div class="subtitle">
+          See the newest promotions and exciting offers!
+        </div>
+      </div>
+      <div class="container">
+        <div class="news-content">
+          <div class="text-box">
+            <div class="header__title">Be your own barista.</div>
+            <a href="#" class="btn-default style-2">Discover</a>
+          </div>
+          <div class="img-box">
+            <img src="NEWS-IMAGE-1" alt="NEWS-IMAGE-01" />
+          </div>
+        </div>
+        <div class="news-content">
+          <div class="text-box">
+            <div class="header__title">Enhance your skills.</div>
+            <a href="#" class="btn-default style-2">Discover</a>
+          </div>
+          <div class="img-box">
+            <img src="NEWS-IMAGE-1" alt="NEWS-IMAGE-01" />
+          </div>
+        </div>
+        <div class="news-content">
+          <div class="text-box">
+            <div class="header__title">
+              We are committed now on creating greater values for society.
+            </div>
+            <a href="#" class="btn-default style-2">Discover</a>
+          </div>
+          <div class="img-box">
+            <img src="NEWS-IMAGE-1" alt="NEWS-IMAGE-01" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offers-section section" id="offers">
+      <div class="title-section style-2">
+        Offers
+        <div class="subtitle">Here you will find all our current offers.</div>
+      </div>
+      <div class="container">
+        <div class="offers-content">
+          <div class="img-box">
+            <img src="[OFFERS_IMAGE]" alt="OFFERS_IMAGE" />
+          </div>
+          <div class="text-box">
+            <div class="header-offers">
+              <h2>Special offer 50% off</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+                nam ullam consequatur aut voluptatibus illum accusantium,
+                quaerat fugit ipsa at.
+              </p>
+            </div>
+            <div class="footer-offers">
+              <div class="price">$49.99</div>
+              <a href="#" class="btn-default style-2">Discover</a>
+            </div>
+          </div>
+        </div>
+        <div class="offers-content">
+          <div class="img-box">
+            <img src="[OFFERS_IMAGE]" alt="OFFERS_IMAGE" />
+          </div>
+          <div class="text-box">
+            <div class="header-offers">
+              <h2>Limited time offer</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+                nam ullam consequatur aut voluptatibus illum accusantium,
+                quaerat fugit ipsa at.
+              </p>
+            </div>
+            <div class="footer-offers">
+              <div class="price">$99.99</div>
+              <a href="#" class="btn-default style-2">Discover</a>
+            </div>
+          </div>
+        </div>
+        <div class="offers-content">
+          <div class="img-box">
+            <img src="[OFFERS_IMAGE]" alt="OFFERS_IMAGE" />
+          </div>
+          <div class="text-box">
+            <div class="header-offers">
+              <h2>Special Coffeenio</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+                nam ullam consequatur aut voluptatibus illum accusantium,
+                quaerat fugit ipsa at.
+              </p>
+            </div>
+            <div class="footer-offers">
+              <div class="price">$29.99</div>
+              <a href="#" class="btn-default style-2">Discover</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="coffee-bean-section section" id="coffee">
+      <div class="title-section">
+        Coffeenio Beans
+        <div class="subtitle">Lorem ipsum dolor sit amet.</div>
+      </div>
+      <div class="container">
+        <div class="bean-content">
+          <img src="[COFFEE_BEAN]" alt="BEAN_IMAGE" />
+          <div class="bean-subtitle">Arabica Coffeenio Beans</div>
+        </div>
+        <div class="bean-content">
+          <img src="[COFFEE_BEAN]" alt="BEAN_IMAGE" />
+          <div class="bean-subtitle">Robusta Coffeenio Beans</div>
+        </div>
+        <div class="bean-content">
+          <img src="[COFFEE_BEAN]" alt="BEAN_IMAGE" />
+          <div class="bean-subtitle">Liberica Coffeenio Beans</div>
+        </div>
+      </div>
+    </div>
+    <div class="coffee-machine-section section" id="machine">
+      <div class="container">
+        <div class="show-image">
+          <img src="[IMAGE]" alt="IMAGE" />
+        </div>
+        <div class="list-image">
+          <div class="machine-list-box">
+            <div class="img-box">
+              <img src="[IMAGE]" alt="IMAGE" />
+            </div>
+            <div class="text-box">
+              <div class="type-machine">Coffeenio maker super-automatic</div>
+              <div class="title-machine">Coffeenio Machine Sollievo</div>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aliquid, reiciendis!
+              </p>
+            </div>
+          </div>
+          <div class="machine-list-box">
+            <div class="img-box">
+              <img src="[IMAGE]" alt="IMAGE" />
+            </div>
+            <div class="text-box">
+              <div class="type-machine">Coffeenio maker automatic</div>
+              <div class="title-machine">Coffeenio Machine Otten</div>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aliquid, reiciendis!
+              </p>
+            </div>
+          </div>
+          <div class="machine-list-box">
+            <div class="img-box">
+              <img src="[IMAGE]" alt="IMAGE" />
+            </div>
+            <div class="text-box">
+              <div class="type-machine">Coffeenio maker super</div>
+              <div class="title-machine">Coffeenio Machine</div>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aliquid, reiciendis! Lorem, ipsum dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product-section section" id="product">
+      <div class="title-section">Our products</div>
+      <div class="container">
+        <div class="product-container">
+          <div class="product-item">
+            <div class="product-image">
+              <img src="[PRODUCT]" alt="IMAGE1" />
+            </div>
+            <div class="product-info">
+              <div class="left-content">
+                <div class="product-title">Caramel Creame</div>
+                <div class="product-category">Coffeenio</div>
+              </div>
+              <div class="right-content">
+                <div class="prodct-price">$99.99</div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <img src="[PRODUCT]" alt="IMAGE2" />
+            </div>
+            <div class="product-info">
+              <div class="left-content">
+                <div class="product-title">Cocoa Truffle</div>
+                <div class="product-category">Coffeenio</div>
+              </div>
+              <div class="right-content">
+                <div class="prodct-price">$29.99</div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <img src="[PRODUCT]" alt="IMAGE3" />
+            </div>
+            <div class="product-info">
+              <div class="left-content">
+                <div class="product-title">Cocoa</div>
+                <div class="product-category">Coffeenio</div>
+              </div>
+              <div class="right-content">
+                <div class="prodct-price">$19.99</div>
+              </div>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image">
+              <img src="[PRODUCT]" alt="IMAGE3" />
+            </div>
+            <div class="product-info">
+              <div class="left-content">
+                <div class="product-title">Coconuts</div>
+                <div class="product-category">Coffeenio</div>
+              </div>
+              <div class="right-content">
+                <div class="prodct-price">$39.99</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-button">
+          <a href="#product" class="btn-default style-2">Discover</a>
+        </div>
+      </div>
+    </div>
+    <div class="service-section section" id="service">
+      <div class="title-section style-2">Services</div>
+      <div class="container">
+        <div class="service-container">
+          <div class="service-item">
+            <div class="header-service-item">
+              <div class="service-icon">
+                <i class="fas fa-headset"></i>
+              </div>
+              <div class="service-title">Support 24/7</div>
+            </div>
+            <div class="footer-service-item">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Debitis, optio? Lorem ipsum dolor sit amet.
+              </p>
+              <a href="#service" class="btn-default style-2">Discover</a>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="header-service-item">
+              <div class="service-icon">
+                <i class="fas fa-truck"></i>
+              </div>
+              <div class="service-title">Free Delivery 24/7</div>
+            </div>
+            <div class="footer-service-item">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Debitis.
+              </p>
+              <a href="#service" class="btn-default style-2">Discover</a>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="header-service-item">
+              <div class="service-icon">
+                <i class="fas fa-hand-holding-heart"></i>
+              </div>
+              <div class="service-title">Customer Care 24/7</div>
+            </div>
+            <div class="footer-service-item">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Debitis, optio? Lorem ipsum dolor sit amet. Lorem ipsum dolor
+                sit amet.
+              </p>
+              <a href="#service" class="btn-default style-2">Discover</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="reservation-section section" id="reservation">
+      <div class="container">
+        <div class="reservation-image">
+          <div class="box-dashed box"></div>
+          <div class="box-solid box"></div>
+          <div class="box-image box">
+            <img src="[IMAGE]" alt="IMAGE_RESERVE" />
+          </div>
+        </div>
+        <div class="reservation-card">
+          <div class="title-card">
+            <div class="header__title">Reservation</div>
+            <div class="subtitle">Reserve your table!</div>
+          </div>
+          <form class="card-box">
+            <div class="input-group input-bar">
+              <input
+                type="text"
+                required
+                name="text"
+                autocomplete="off"
+                class="input"
+              />
+              <label for="" class="user-label">Full name:</label>
+            </div>
+            <div class="input-group input-bar">
+              <input
+                type="text"
+                required
+                name="text"
+                autocomplete="off"
+                class="input"
+              />
+              <label for="" class="user-label">Email:</label>
+            </div>
+            <div class="input-group input-bar">
+              <input
+                type="text"
+                required
+                name="text"
+                autocomplete="off"
+                class="input"
+              />
+              <label for="" class="user-label">Phone number:</label>
+            </div>
+            <div class="select-group input-bar">
+              <div class="guest-fill">
+                <select name="guest" id="guest-fill" required>
+                  <option value="" selected disabled>Number of guests</option>
+                  <option value="">2</option>
+                  <option value="">4</option>
+                  <option value="">6</option>
+                  <option value="">8</option>
+                  <option value="">12</option>
+                </select>
+              </div>
+            </div>
+            <div class="date-time-group input-bar">
+              <div class="row date-group">
+                <input type="date" id="reservation-date" required />
+              </div>
+              <div class="row time-group">
+                <input type="time" id="reservation-time" required />
+              </div>
+            </div>
+            <div class="message-form">
+              <textarea id="message-form" placeholder="Message..."></textarea>
+            </div>
+            <button class="btn-default style-2 input-bar">Reserve NOW.</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="partnership-section section" id="partnership">
+      <div class="title-section">Partnership</div>
+      <div class="container">
+        <div class="partner-container">
+          <div class="partner-text-box">
+            <h2>Partner with Larva</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              sequi a vitae repellendus ipsam odit ratione nesciunt ipsum in
+              aperiam?
+            </p>
+            <a href="#partnership" class="btn-default style-2"
+              >Discover <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="partner-image-box">
+            <img src="[PARTNER]" alt="IMAGE_PARTNER" />
+          </div>
+        </div>
+        <div class="partner-box-title">Partnership:</div>
+        <div class="partner-box">
+          <div class="partner-img">
+            <img src="[IMAGE_PARTNER]" alt="IMAGE-PARTNER-1" />
+          </div>
+          <div class="partner-img">
+            <img src="[IMAGE_PARTNER]" alt="IMAGE-PARTNER-2" />
+          </div>
+          <div class="partner-img">
+            <img src="[IMAGE_PARTNER]" alt="IMAGE-PARTNER-3" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="help-faq-section section" id="help">
+      <div class="title-section">Help</div>
+      <div class="container">
+        <div class="help-container">
+          <div class="help-item">
+            <div class="help-box">
+              <div class="icon-box">
+                <i class="fas fa-question"></i>
+              </div>
+              <div class="help-title">Coffeenio and Machines Information</div>
+              <div class="help-button">
+                Learn more <i class="fas fa-circle-info"></i>
+              </div>
+            </div>
+          </div>
+          <div class="help-item">
+            <div class="help-box">
+              <div class="icon-box">
+                <i class="fas fa-question"></i>
+              </div>
+              <div class="help-title">Order and Delivery</div>
+              <div class="help-button">
+                Learn more <i class="fas fa-circle-info"></i>
+              </div>
+            </div>
+          </div>
+          <div class="help-item">
+            <div class="help-box">
+              <div class="icon-box">
+                <i class="fas fa-question"></i>
+              </div>
+              <div class="help-title">Product issues</div>
+              <div class="help-button">
+                Learn more <i class="fas fa-circle-info"></i>
+              </div>
+            </div>
+          </div>
+          <div class="help-item">
+            <div class="help-box">
+              <div class="icon-box">
+                <i class="fas fa-question"></i>
+              </div>
+              <div class="help-title">Brand and promotion</div>
+              <div class="help-button">
+                Learn more <i class="fas fa-circle-info"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="faq-container">
+          <div id="item-1" class="faq-item">
+            <div class="title-quest">
+              <h2>How to store?</h2>
+              <a href="#item-1" class="">
+                <div class="fas fa-caret-down"></div>
+              </a>
+            </div>
+            <div class="answer">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum,
+              dignissimos?
+            </div>
+          </div>
+          <div id="item-2" class="faq-item">
+            <div class="title-quest">
+              <h2>How to brew coffee?</h2>
+              <a href="#item-2" class="">
+                <div class="fas fa-caret-down"></div>
+              </a>
+            </div>
+            <div class="answer">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+              cupiditate sequi, sint praesentium consequatur in?
+            </div>
+          </div>
+          <div id="item-3" class="faq-item">
+            <div class="title-quest">
+              <h2>How long is coffee bean good for use?</h2>
+              <a href="#item-3" class="">
+                <div class="fas fa-caret-down"></div>
+              </a>
+            </div>
+            <div class="answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              sed error provident explicabo dolorum. Dolore.
+            </div>
+          </div>
+          <div id="item-4" class="faq-item">
+            <div class="title-quest">
+              <h2>Where does this store supply coffee beans from?</h2>
+              <a href="#item-4" class="">
+                <div class="fas fa-caret-down"></div>
+              </a>
+            </div>
+            <div class="answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              consequuntur deleniti sint, magnam maxime sequi a culpa commodi
+              labore pariatur.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">&copy; 2023 - DreamDevs. All rights reserved.</div>
+  </body>
+  <script src="./practice.js" defer></script>
+  <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+  <script src="./vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(
+      document.querySelectorAll(".news-section .container .news-content"),
+      {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.5,
+      }
+    );
+  </script>
+</html>
